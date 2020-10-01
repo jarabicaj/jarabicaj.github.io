@@ -1,34 +1,50 @@
 body {
     background: #ccc;
-    font-family: 'calibri;
+    font-family: 'Sen', sans-serif;
 }
 
 h1 {
     color: lightcoral;
     text-align: center;
 }
-#me {
-    width: 200px;
-    border-radius: 50%;
-    border: 5px double white; 
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
 a {
     font-size: x-large;
     color: lightseagreen;
     text-decoration: none;
     font-weight: bold;
-    margin: 10px 20px;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    
+    
  
 }
 a:hover {
     color: darkgreen;
+    background: white;
+    color: salmon;
+    border-radius: 5%;
 
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(73, 228, 202, 0.192);
+}
+
+.imgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#me {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px double white;    
+}
+#meandmartin {
+    width: 500px;
+    border: 5px double white; 
+ 
 }
